@@ -52,6 +52,27 @@
 .card-body{
     background-color: plum;
 }
+.footer-card-container {
+  margin-top: 60px; 
+}
+.card {
+  border-radius: 20px;
+  overflow: hidden;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  background-color: plum;
+  border-radius: 0; 
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+
   </style>
 </head>
 <body>
@@ -156,12 +177,12 @@
       </div>
     </div>
   </div>
-<div class="card text-center">
+<div class="card text-center footer-card-container">
   <div class="card-header">
     PANDA PLANNER
   </div>
   <div class="card-body">
-        <h5 class="card-title">Contact us </h5>
+        <h5 class="card-title ">Contact us </h5>
         <h6>📞 Phone</h6>
         <p>+91 93078236789</p>
         <h6>✉️ Email</h6>
