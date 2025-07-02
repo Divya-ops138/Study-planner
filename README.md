@@ -1,4 +1,4 @@
-# 📚 Study Planner – Panda Planner 🐼
+# 📚 Study Planner – Planneria🐼
 
 A beautiful, responsive study planner web app made with HTML, CSS, and Bootstrap.
 
