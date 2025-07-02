@@ -67,11 +67,6 @@
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
 
-    .card-body {
-      background-color: plum;
-      border-radius: 0;
-    }
-
     .card:hover {
       transform: translateY(-10px);
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
@@ -84,16 +79,23 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg" style="background-color: palevioletred;" data-bs-theme="light">
     <div class="container-fluid">
-      <a class="navbar-brand text-white fw-bold" href="#">Planneria</a>
+      <a class="navbar-brand text-white fw-bold" href="index.html">Planneria</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link active text-white" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="timetable.html">Timetable</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="#">Tasks</a></li>
+          <li class="nav-item">
+  <a class="nav-link active text-white fw-bold" style="background-color: plum; border-radius: 5px;" href="index.html">Home</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link text-white" href="timetable.html">Timetable</a>
+</li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Tasks</a>
+          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">
               Progress
@@ -108,7 +110,9 @@
               </li>
             </ul>
           </li>
-          <li class="nav-item"><a class="nav-link disabled text-white" aria-disabled="true">Disabled</a></li>
+          <li class="nav-item">
+            <a class="nav-link disabled text-white" aria-disabled="true">Disabled</a>
+          </li>
         </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search"/>
@@ -163,7 +167,7 @@
             <h5 class="card-title">Timetable</h5>
             <img src="https://marketplace.canva.com/EAGWlUmIGgQ/2/0/1131w/canva-teacher-student-schedule-lesson-plan-simple-lined-colorful-style-AGnxhU1C7aE.jpg" class="card-img-top" alt="Timetable">
             <p class="card-text">Plan your daily classes and breaks.</p>
-            <a href="#" class="btn btn-primary">View</a>
+            <a href="timetable.html" class="btn btn-primary">View</a>
           </div>
         </div>
       </div>
@@ -207,4 +211,3 @@
 
 </body>
 </html>
-
